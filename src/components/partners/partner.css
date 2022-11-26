@@ -1,0 +1,14 @@
+#partners_types .container_widgets_item {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #partners_types .container_widgets_item_icon img {
+    height: 4rem;
+  }
+
+  .content_is{    background-image: linear-gradient(to top, HSLA(0, 0%, 100%, 1), HSLA(0, 0%, 100%, 0.8)), url('https://www.unicraft.org/style/img/bg/partner_bg.jpg');
+  }
+  .cont_big{
+      width: 100%;
+  }

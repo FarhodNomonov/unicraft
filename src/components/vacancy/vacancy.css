@@ -1,0 +1,268 @@
+.text_center {
+  text-align: center;
+}
+.vacancy_item {
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 2rem -1rem rgba(128, 128, 128, 0.35);
+  box-shadow: 0 0 2rem -1rem rgba(128, 128, 128, 0.35);
+  position: relative;
+  margin-bottom: 1rem;
+}
+.vacancy_item_type {
+  color: #fff;
+  background-color: #6aade3;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: auto;
+  padding: 0.5rem 2rem;
+  margin-left: -2rem;
+  margin-top: -1rem;
+}
+.vacancy_item_title {
+  font-size: 2rem;
+}
+.vacancy_item_features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+.vacancy_item_feature {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  padding: 1rem;
+}
+.vacancy_item_feature_name {
+  font-size: 0.85em;
+}
+.vacancy_item_feature_value {
+  font-size: 1.215em;
+}
+.vacancy_item_options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.vacancy_item_options_block {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem;
+  flex: 1 1 20rem;
+}
+.vacancy_item_description {
+  padding: 1rem 0;
+}
+.vacancy_item_list {
+  padding: 1rem 2rem;
+  font-size: 0.85em;
+}
+.vacancy_item_list li {
+  padding: 0.5rem;
+  list-style-type: square;
+}
+.vacancy_item_action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.vacancy_item_action > * {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+}
+.vacancy_item_action .button {
+  margin-right: 2rem;
+}
+.vacancy_item_more {
+  padding-top: 2rem;
+}
+
+.button_success.button_gradienteffect {
+  background-image: -o-radial-gradient(20%, circle, #96da4e, #7cb83d);
+  background-image: radial-gradient(circle at 20%, #96da4e, #7cb83d);
+  border: 1px solid #90c756;
+}
+.button_success.button_gradienteffect {
+  background-image: radial-gradient(circle at 20%, #96da4e, #7cb83d);
+  border: 1px solid #90c756;
+}
+element.style {
+}
+.vacancy_item_action .button {
+  margin-right: 2rem;
+}
+.button_success.button_gradienteffect {
+  background-image: -o-radial-gradient(20%, circle, #96da4e, #7cb83d);
+  background-image: radial-gradient(circle at 20%, #96da4e, #7cb83d);
+  border: 1px solid #90c756;
+}
+.button_success:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(HSLa(0, 0%, 100%, 0.1)),
+    to(HSLa(0, 0%, 60%, 0))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    HSLa(0, 0%, 100%, 0.1),
+    HSLa(0, 0%, 60%, 0)
+  );
+  background-image: linear-gradient(
+    to top,
+    HSLa(0, 0%, 100%, 0.1),
+    HSLa(0, 0%, 60%, 0)
+  );
+  border: 1px solid #70a537;
+  -webkit-box-shadow: 0 2px 10px rgb(62 92 31 / 25%);
+  box-shadow: 0 2px 10px rgb(62 92 31 / 25%);
+}
+.button.button_gradienteffect {
+  background-image: -o-radial-gradient(20%, circle, #fff, #fff);
+  background-image: radial-gradient(circle at 20%, #fff, #fff);
+  border: 1px solid #fff;
+}
+.button:hover {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(HSLa(0, 0%, 100%, 0.1)),
+    to(HSLa(0, 0%, 60%, 0))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    HSLa(0, 0%, 100%, 0.1),
+    HSLa(0, 0%, 60%, 0)
+  );
+  background-image: linear-gradient(
+    to top,
+    HSLa(0, 0%, 100%, 0.1),
+    HSLa(0, 0%, 60%, 0)
+  );
+  border: 1px solid #e6e6e6;
+  -webkit-box-shadow: 0 2px 10px rgb(128 128 128 / 25%);
+  box-shadow: 0 2px 10px rgb(128 128 128 / 25%);
+}
+.vacancy_item_action > * {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+}
+.button_success,
+.button_success:visited {
+  color: #fff;
+  background-color: #7bb63d;
+}
+.button_success {
+  border: 1px solid #70a537;
+}
+.button_rounded {
+  border-radius: 100px;
+}
+.button,
+.button:visited {
+  color: #000;
+  background-color: #fcfcfc;
+}
+.button {
+  background-color: #fff;
+  text-align: left;
+  line-height: 1.5;
+  margin: 2px;
+  min-height: 3em;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: none;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  outline: none;
+  outline-style: none !important;
+  appearance: none;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  font-weight: 400;
+  color: #000;
+  font-size: 1em;
+  padding: 0 1.5em;
+  vertical-align: top;
+  min-height: 3em;
+  height: 3em;
+  line-height: 3em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-block;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  background-color: #fff;
+  background-size: 100% 100%;
+  background-position: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  flex: none !important;
+}
+.button_success.button_gradienteffect {
+  background-image: -o-radial-gradient(20%, circle, #96da4e, #7cb83d);
+  background-image: radial-gradient(circle at 20%, #96da4e, #7cb83d);
+  border: 1px solid #90c756;
+}
+.button_success,
+.button_success:visited {
+  color: #fff;
+  background-color: #7bb63d;
+}
+.button_rounded {
+  border-radius: 100px;
+}
+.dottedlink:not(.button):hover {
+  color: #6aade3;
+}
+.dottedlink {
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px dashed currentcolor;
+  margin-bottom: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.vacancy_item_more {
+  display: none;
+}
+.see_alls:checked ~ .vacancy_item_more {
+  display: block;
+}
+
+.vacancy_item_more {
+  display: none;
+}
+.see_alls:checked ~ .vacancy_item_more {
+  display: block;
+}

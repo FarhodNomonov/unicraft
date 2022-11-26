@@ -1,0 +1,195 @@
+.rate_container {
+  width: 100%;
+  background-attachment: initial;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(HSLA(0, 0%, 50%, 0.2)), color-stop(20rem, HSLA(0, 0%, 50%, 0)));
+  background-image: linear-gradient(to bottom, HSLA(0, 0%, 50%, 0.2), HSLA(0, 0%, 50%, 0) 20rem);
+}
+
+.rate_container .rate {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rate_container .rate > h1 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.rate_container .rate > p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.rate_container .rate .tariff_blocks_period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.rate_container .rate .tariff_blocks_period > p {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_switch {
+  width: 68px;
+  height: 36px;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_switch .switch {
+  position: absolute;
+  width: 35px;
+  border-radius: 50%;
+  height: calc(100% - 4px);
+  left: 2px;
+  top: 2px;
+  background: #2f79b4;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year > p {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year .tariff_img {
+  margin-right: 10px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year .tariff_img svg {
+  width: 32px;
+  height: 40px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year .tariff_title_flex p {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year .tariff_title_flex p:nth-child(1) {
+  color: #e1103a;
+}
+
+.rate_container .rate .tariff_blocks_period .tariff_blocks_period_year .tariff_title_flex p:nth-child(2) {
+  color: #ff0033;
+  font-weight: 500;
+}
+
+.rate_container .rate .tariff_block_item {
+  padding: 20px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  text-align: center;
+  width: 318px;
+  background: #fff;
+  border-radius: 30px;
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card:hover {
+  -webkit-box-shadow: 0 7px 40px -20px #6aade3;
+          box-shadow: 0 7px 40px -20px #6aade3;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card > h1 {
+  margin: 20px 0 40px 0;
+  font-weight: 400;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card > p {
+  margin-bottom: 10px;
+  color: #8c8c8c;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+  padding-bottom: 10px;
+  font-size: 10px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_number button {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #2f79b4;
+  margin: 0 10px;
+  margin-bottom: 30px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price > h1 {
+  font-weight: 400;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price > h2 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price > p:nth-child(3) {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price button {
+  border: 1px solid #67abe2;
+  padding: 10px;
+  font-weight: 700;
+  width: 80%;
+  color: #fff;
+  background-color: #67abe2;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price a {
+  color: #8c8c8c;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  border-bottom: 1px dashed currentColor;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price p:nth-child(6) {
+  font-size: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+  padding-bottom: 10px;
+}
+
+.rate_container .rate .tariff_block_item .tariff_block_card .tariff_card_price_bottom p {
+  font-size: 10px;
+}
+/*# sourceMappingURL=rate.css.map */
